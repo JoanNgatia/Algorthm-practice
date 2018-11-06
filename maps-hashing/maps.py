@@ -25,7 +25,7 @@ locations = {'North America': {'USA': ['Mountain View']}}
 locations['Asia'] = {'India': ['Bangalore']}
 locations['North America']['USA'].append('Atlanta')
 locations['Africa'] = {'Egypt': ['Cairo']}
-# locations['Asia'].values.append({'China': ['Shanghai']})
+locations['Asia'].update({'China': ['Shanghai']})
 
 """Print the following (using "print").
 1. A list of all cities in the USA in

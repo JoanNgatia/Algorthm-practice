@@ -15,12 +15,11 @@ def quicksort(array):
         for val in array:
             if val < array[0]:
                 less_than.append(val)
-            elif val == array[0]:
+            if val == array[0]:
                 equal.append(val)
-            else:
+            if val > array[0]:
                 bigger_than.append(val)
-        final_list = bigger_than + equal + less_than
-        return quicksort(final_list)
+        return quicksort(less_than) + equal + quicksort(bigger_than)
     else:
         return array
 
