@@ -19,4 +19,4 @@
 - start at root, view all its children on same level from the left to right,next move to children of children
 
 ## Tree Types
-1. Binary Search trees - every node has 2 children, levels have number of nodes increasing to the power of 2
+1. Binary Search trees - every parent node has 2 or fewer children, levels have number of nodes increasing to the power of 2. the trees are sorted. Every value on the left side is smaller than the values on the right within a level.
