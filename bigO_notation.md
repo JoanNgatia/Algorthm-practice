@@ -52,6 +52,6 @@ Worst case defines where the max possible input can be applied on a function.
 E.g while iterating through the alphabet.
 ```
 worst case = iterating through all 26 letters
-average case = Iteratign through 13 letter
+average case = Iterating through 13 letter
 best case = Finding that the first alphabet is what you need.
 ```
