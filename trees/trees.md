@@ -20,4 +20,4 @@
 
 ## Tree Types
 1. Binary Search trees - every parent node has 2 or fewer children, levels have number of nodes increasing to the power of 2. the trees are sorted. Every value on the left side is smaller than the values on the right within a level.
-
+2. Heaps - Elements arranged incr /decr order such that the root is the min / max element. Parents can have any number of children.
