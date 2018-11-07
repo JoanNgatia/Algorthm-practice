@@ -17,3 +17,6 @@ To speed up the function, we can use a bucket size that's not divisible by 5 e.g
 ### Hash Maps
 e.g python dictionaries
 - key, values pairs. Hash functions applied on the keys
+
+**Collisions** occur when a function maps two distinct inputs to the same output.
+To resolve this, linear probing can be employed. This involves looking into the hash table and trying to find another open sloy to hold the item causing the collision.
