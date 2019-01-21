@@ -19,8 +19,9 @@ These include:
     This is because a copy of existing elements has to be made first and a blank space is left
     where the new element is inserted.
 
-- Searching for an element if it's in  a particulat spot **O(1)**.
+- Searching for an element if it's in  a particular spot in a sorted array **O(1)**.
   This is because the data in the collection has an index attached to it.
+- Searching for an element whose index is unkown in a sorted array takes **O(log n)** in the worst case.
 
 - Finding length of the array is **O(1)** if  you use the python inbuilt `len()` function.
   This runs only once on the input.(in constant time)
@@ -53,8 +54,10 @@ These include:
 ## Stacks
 - Easy access to top element
 - Push command to add new elements, pop to remove elements
-- Both push and pop happen in constant time **O(1)**  since you only need to check the top element in stack.
+- Both push and pop happen in constant time **O(1)**  since the operations happen in relation to the first item on the stack.
 - Operate on last in, first out access to objects
+- used in Depth First Search in Tree Data Structures
+
 
 ### Possible usecases
 - social media newsfeeds to reach most recent items first.
@@ -64,8 +67,14 @@ These include:
 - First in First out structure to elements.
 - The oldest element comes out first.
 - enqueue(add element to the tail), dequeue(remove head element), peak(look at head but don't remove it)
+- used in Breadth First Search in Tree Data Structures
 
 ### Types of queues
 - **deck**: queue goes both ways, cann add /delete from either end
 - **priority**: each element has a numerical priority. A dequeue removes element with highest priority.
      If priority is similar, oldest element gets dequeued first.
+
+### Possible uses
+- Scheduled message queueing.
+- Accessing shared resources. e.g Printers
+
