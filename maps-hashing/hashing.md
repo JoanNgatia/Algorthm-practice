@@ -19,4 +19,8 @@ e.g python dictionaries
 - key, values pairs. Hash functions applied on the keys
 
 **Collisions** occur when a function maps two distinct inputs to the same output.
-To resolve this, linear probing can be employed. This involves looking into the hash table and trying to find another open sloy to hold the item causing the collision.
+To resolve this, linear probing can be employed. This involves looking into the hash table and trying to find another open slot to hold the item causing the collision.
+
+## Hash algorithms
+- SHA 128 and SHA 256
+- MD5
