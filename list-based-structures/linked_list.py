@@ -77,35 +77,31 @@ class LinkedList(object):
                 current = current.next
         return None
 
+    def insert_first(self, value):
+        # insert new elements at top of linked list
+        value.next = self.head
+        self.head = value
 
-# Test cases
-# Set up some Elements
-e1 = Element(1)
-e2 = Element(2)
-e3 = Element(3)
-e4 = Element(4)
+    def delete_first(self):
+        # delete first element from linked list
+        if self.head:
+            deleted_element = self.head
+            temp = deleted_element.next
+            self.head = temp
+            return deleted_element
+        else:
+            return None
 
-# Start setting up a LinkedList
-ll = LinkedList(e1)
-ll.append(e2)
-ll.append(e3)
 
-# Test get_position
-# Should print 3
-print ll.head.next.next.value
-# Should also print 3
-print ll.get_position(3).value
+# stacks can be implemented using linkedlists
+class Stack(object):
+    def __init__(self, top=None):
+        self.ll = LinkedList(top)
 
-# Test insert
-ll.insert(e4, 3)
-# Should print 4 now
-print ll.get_position(3).value
+    def push(self, new_element):
+        "Push (add) a new element onto the top of the stack"
+        self.ll.insert_first(new_element)
 
-# Test delete
-ll.delete(1)
-# Should print 2 now
-print ll.get_position(1).value
-# Should print 4 now
-print ll.get_position(2).value
-# Should print 3 now
-print ll.get_position(3).value
+    def pop(self):
+        "Pop (remove) the first element off the top of the stack and return it"
+        return self.ll.delete_first()

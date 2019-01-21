@@ -10,7 +10,6 @@ These include:
 - Queues
 
 ## Arrays
-
 - Have a fixed number of items of the same type.
 - Each element in the array has an index.
 - Each element stores the value that it holds as well as what index it is.
@@ -25,7 +24,6 @@ These include:
 
 - Finding length of the array is **O(1)** if  you use the python inbuilt `len()` function.
   This runs only once on the input.(in constant time)
-
 
 
 ## Linked Lists
@@ -45,10 +43,19 @@ These include:
   end of the list and, will take **O(1)** if insertion is to take place at the beginning of the list.
 
 
-### Possible uses
-
 #### Difference between arrays and linked lists
 |Arrays | Linked Lists|
 | -------- | ------------ |
 | composed of fixed size data records stored in adjoining memory blocks | made of data records linked together by pointers |
 | The size of each data record is known. | The records can be stored any where in memory and only need to "point" to the next record.|
+
+
+## Stacks
+- Easy access to top element
+- Push command to add new elements, pop to remove elements
+- Both push and pop happen in constant time **O(1)**  since you only need to check the top element in stack.
+- Operate on last in, first out access to objects
+
+### Possible usecases
+- social media newsfeeds to reach most recent items first.
+
