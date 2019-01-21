@@ -1,6 +1,7 @@
 ## Intro
 **O(n)** where n represents length of input to the function. An algebraic expr is added in the parentheses defining the functions applied to the input
 - Used to define time / space efficiency.
+- To define patterns and extrapolate efficiency, use tables of data collection size vs iterations to solve problem.
 
 e.g
 for
@@ -9,7 +10,7 @@ def example1(manatees):
     for manatee in manatees:
         print manatee['name']
 ```
-the time efficiency is `O(n)` since the code will only run through `n` elements.
+the time efficiency is `O(n)` since the code will only run `n` times through `n` elements.
 
 for
 ```python
