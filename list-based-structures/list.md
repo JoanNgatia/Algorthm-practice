@@ -59,3 +59,13 @@ These include:
 ### Possible usecases
 - social media newsfeeds to reach most recent items first.
 
+
+## Queues
+- First in First out structure to elements.
+- The oldest element comes out first.
+- enqueue(add element to the tail), dequeue(remove head element), peak(look at head but don't remove it)
+
+### Types of queues
+- **deck**: queue goes both ways, cann add /delete from either end
+- **priority**: each element has a numerical priority. A dequeue removes element with highest priority.
+     If priority is similar, oldest element gets dequeued first.
