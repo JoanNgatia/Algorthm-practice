@@ -1,5 +1,6 @@
 # Intro
 - Data starts from a root with data added being branches.
+- Is a type of graphs
 - Are extensions of linkedlists in that every node has its data and points to the next data.(parent-child rltps between nodes)
 - completely connected- some way to reach every node
 - no cycles, nodes shouldn't be encountered twice.
