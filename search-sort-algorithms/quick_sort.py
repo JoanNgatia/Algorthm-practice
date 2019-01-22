@@ -1,7 +1,3 @@
-"""pick one value in the array(a pivot), recursively.
-move all values
-around it accordingly."""
-
 """Implement quick sort in Python.
 Input a list.
 Output a sorted list."""
