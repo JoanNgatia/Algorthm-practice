@@ -15,3 +15,7 @@
   Alternatively, pick an edge, mark node as seen until all nodes are explored.
 - **Breadth First search** - look at all nodes adjacent to one, before moving to the next level.
   search every edge of one node before moving to the next. Store nodes in a queue as you traverse.
+
+#### Notable paths in traversal
+- travel through every node atleast one - **Eulerian path**
+- travel though every vertex once - **Hamiltonian path**
