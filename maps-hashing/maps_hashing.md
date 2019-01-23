@@ -43,6 +43,8 @@ e.g python dictionaries
 - key, values pairs. Hash functions applied on the keys
 
 ## Known Hash algorithms
-- SHA 128 and SHA 256
-- MD5
+
+- SHA 1 (e.g SHA 128) - Produce a 20 byte hash value
+- MD5 - generate a 16 bit, 32 digit hexadecimal hashed value
+- SHA 2 (e.g SHA 256) - Produce a 32 byte hash value
 Both of the above have been used to hash out passwords for storage in databases.
