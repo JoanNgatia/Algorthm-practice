@@ -17,5 +17,5 @@
   search every edge of one node before moving to the next. Store nodes in a queue as you traverse.
 
 #### Notable paths in traversal
-- travel through every node atleast one - **Eulerian path**
+- travel through every node atleast once - **Eulerian path**
 - travel though every vertex once - **Hamiltonian path**
