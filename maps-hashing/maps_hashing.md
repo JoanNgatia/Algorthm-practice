@@ -31,6 +31,8 @@ It uses a hash function to calculate the index for the data key and the key is s
 
 **Collisions** occur when a function maps two distinct inputs to the same output.
 To resolve this, linear probing can be employed. This involves looking into the hash table and trying to find another open slot to hold the item causing the collision.
+- chaining also resolves collision by storing the data as linked list in the bucket with the collision.
+
 
 ## Use cases
 - Encrypt digital signatures
